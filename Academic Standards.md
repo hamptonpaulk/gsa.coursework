@@ -1,4 +1,4 @@
-## Appendix A: Academic Standards
+## Academic Standards
 
 † Note: indicates standards are addressed in the AVGD Curriculum
 Framework.
