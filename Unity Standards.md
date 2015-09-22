@@ -1,5 +1,6 @@
 ## Professional Skill Standards for Interactive Application & Video Game Creation
 
+
 **Legend:**
 
 **CRI:** Common Core Reading: Informational Text
