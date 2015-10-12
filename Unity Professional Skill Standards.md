@@ -19,7 +19,6 @@
 
 ## 1.1   OVERVIEW OF KEY ASPECTS IN THE DESIGN PROCESS
 -----
------
 
 ### 1.1.1  Identify the primary steps in the design process (i.e. conceptualize, prototype, test, analyze)	[T21C2]  [T21C3]  [CWS2]  [T8] [T11]  [SCC01]  [SCC10]
 
