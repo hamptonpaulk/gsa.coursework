@@ -94,31 +94,88 @@ As with nearly all varieties of genre classification, the matter of any individu
 
 #### 1.1.13 	Explain the role of psychology and sociology on interactive design	[T21C10]  [CRS2] [CWS2]  [SCC02.01]
 
+Cultural psychology is the study of how psychological and behavioral tendencies are rooted in and embodied in culture.[1] The main tenet of cultural psychology is that mind and culture are inseparable and mutually constitutive, meaning that people are shaped by their culture and their culture is also shaped by them.[2] As Richard Shweder, one of the major proponents of the field, writes, "Cultural psychology is the study of the way cultural traditions and social practices regulate, express, and transform the human psyche, resulting less in psychic unity for humankind than in ethnic divergences in mind, self, and emotion."
+
+Cultural psychology relates directly to gaming and game design as we are designing to a target, to provide some form of escape through entertainment.
+
+http://www.fastcompany.com/3025201/most-creative-people/dayz-a-murder-simulator-psychology-study-and-zombie-game-tests-your-emo
+
+
 ##### 1.1.13.1 	Explain a relevant use for target demographics as it pertains to design	[T21C10] [CWS2]  [SCC02.01]
+
+http://flurrymobile.tumblr.com/post/115192642055/mobile-gaming-females-beat-males-on-money-time#.U_Uf-_ldUSr
 
 ##### 1.1.13.2 	Explain the use of beta testing and pre-release feedback	[T21C10]  [CWS2] [SCC02.01]
 
 ##### 1.1.13.3 	Explain the use of testing methods for sensory and emotional responses	[T21C10] [CWS2]  [SCC02.01]
 
+http://www.researchgate.net/publication/221247934_Emotional_response_patterns_and_sense_of_presence_during_video_games_Potential_criterion_variables_for_game_design
+
+http://www.digra.org/wp-content/uploads/digital-library/06278.36196.pdf
+
 ##### 1.1.13.4 	Explain various uses of  in-app user analytics	[T21C10]  [CWS2] [SCC02.01]
+
+http://unity3d.com/services/analytics
 
 #### 1.1.14 	Explain the relevance of platform capabilities and constraints (CPU, GPU, Memory, Storage, etc.) to design	[T21C10],  [T21C13] [CWS2]  [SCC01]  [SCC10]
 
+Each of the following: CPU, GPU, Memory, Storage will all need to be tested and adapted for gameplay. These elements will determine your LOD or level of detail needed for models, rendering distance, and so much more.
+
 #### 1.1.15 	Describe common hardware interface devices and their usage (keyboards, controllers, etc.)	[T21C10],  [T21C13]  [SCC10]
+
+keyboards, mice, controllers, vr headsets, touchscreens
 
 #### 1.1.16 	Describe available target platforms, their capabilities and constraints	[T21C13]  [SCC01]   [SCC10]
 
+http://unity3d.com/unity/multiplatform
+
 #### 1.1.17 	Describe profiling techniques for performance & resource monitoring	[CRS2]
+
+http://docs.unity3d.com/Manual/Profiler.html
 
 ##### 1.1.17.1 	Describe measurements for frame rates and draw calls and explain their usage	[CWS2]
 
+draw calls are how many objects are being drawn to the screen. You want to keep this number down to maintain good performance, so watch out for pixel lights as they make objects get drawn as many times as there are lights affecting them. Use the Rendering statistics window in the editor to get the number of draw calls.
+
+http://docs.unity3d.com/Manual/OptimizingGraphicsPerformance.html
+
+http://blog.teamthinklabs.com/index.php/2013/06/25/unity-performance-quick-tips-draw-calls-triangles-more/
+
 #### 1.1.18 	Explain how profiling can indicate different areas for optimization	[T21C10]  [CWS2] [SCC02.01]
+
+http://docs.unity3d.com/Manual/Profiler.html
 
 #### 1.1.19 	Explain why performance optimization on target platforms should begin at the design stage, continuing through development & deployment	[T21C10]  [CRS2]  [CWS1]  [T8] [SCC02.01]
 
 ##### 1.1.19.1 	Detail practical methods for optimizing artwork and assets	[T21C12]
 
+http://docs.unity3d.com/Manual/OptimizingGraphicsPerformance.html
+
 ##### 1.1.19.2 	Detail practical methods for optimizing gameplay
+
+http://docs.unity3d.com/Manual/OptimizingGraphicsPerformance.html
+
+Simple Checklist to make Your Game Faster
+
+- Keep vertex count below 200K..3M per frame when targetting PCs, depending on the target GPU
+- If you’re using built-in shaders, pick ones from Mobile or Unlit category. They work on non-mobile platforms as well; but are simplified and approximated versions of the more complex shaders.
+- Keep the number of different materials per scene low - share as many materials between different objects as possible.
+- Set Static property on a non-moving objects to allow internal optimizations like static batching.
+- Do not use Pixel Lights when it is not necessary - choose to have only a single (preferably directional) pixel light affecting your geometry.
+- Do not use dynamic lights when it is not necessary - choose to bake lighting instead.
+- Use compressed texture formats when possible, otherwise prefer 16bit textures over 32bit.
+- Do not use fog when it is not necessary.
+- Learn benefits of Occlusion Culling and use it to reduce amount of visible geometry and draw-calls in case of complex static scenes with lots of occlusion. Plan your levels to benefit from ccclusion culling.
+- Use skyboxes to “fake” distant geometry.
+- Use pixel shaders or texture combiners to mix several textures instead of a multi-pass approach.
+- If writing custom shaders, always use smallest possible floating point format:
+    fixed / lowp - for colors, lighting information and normals,
+    half / mediump - for texture UV coordinates,
+    float / highp - avoid in pixel shaders, fine to use in vertex shader for position calculations.
+- Minimize use of complex mathematical operations such as pow, sin, cos etc. in pixel shaders.
+- Choose to use less textures per fragment.
+
+
 
 #### 1.1.20 	Examine an existing game and critique its design with respect to functionality and usability	[T21C12]  [CWS1]  [NGSS8]
 
