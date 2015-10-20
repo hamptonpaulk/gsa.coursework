@@ -202,13 +202,13 @@ Simple Checklist to make Your Game Faster
 
 ### 1.2.8  Describe the difference between goals and objectives	[CWS2]
 
-### 1.2.9  Analyze a complex set of objectives and prioritize them	[T21C11]  CSL1b  [T10] [SCC03]
+### 1.2.9  Analyze a complex set of objectives and prioritize them	[T21C11]  [CSL1b]  [T10] [SCC03]
 
 #### 1.2.10 	Analyze potential solutions to discern which is optimum	[T21C10]  [T10]  [SCC03]
 
-#### 1.2.11 	Translate solutions into discreet objectives and tasks	[T21C11]  CSL1b
+#### 1.2.11 	Translate solutions into discreet objectives and tasks	[T21C11]  [CSL1b]
 
-#### 1.2.12 	Sequence objectives and tasks logically	[T21C2]  CSL1b
+#### 1.2.12 	Sequence objectives and tasks logically	[T21C2]  [CSL1b]
 
 #### 1.2.13 	Explain and demonstrate project management techniques	[T21C3]  [CWS2]  [SCC03]
 
@@ -246,13 +246,20 @@ Simple Checklist to make Your Game Faster
 ## 1.4   APPLICATION OF MATHEMATICS FOR DESIGN
 -----
 
+http://unity3d.com/learn/tutorials/modules/beginner/scripting/vector-maths-dot-cross-products
+
+http://unity3d.com/learn/tutorials/modules/intermediate/scripting/quaternions?playlist=17117
+
+http://docs.unity3d.com/ScriptReference/Mathf.html
+
+
 ### 1.4.1  Explain the use of mathematics as it pertains to interactive apps and video games	[T21C10]  [NGSS5] [SCC02.01]
 
 ### 1.4.2  Use algebraic, geometric, and trigonometric relationships to define game object characteristics and properties	[NGSS5]
 
-### 1.4.3 Demonstrate functions of linear algebra and vector mathematics (dot product, cross product, etc.)	CVMa1,  CVMa2, CVMa3  [NGSS5]
+### 1.4.3 Demonstrate functions of linear algebra and vector mathematics (dot product, cross product, etc.)	[CVMa1],  [CVMa2], [CVMa3]  [NGSS5]
 
-### 1.4.4  Explain how quaternion calculations could be used in video game development.	CVMa1  [CWS2]  [NGSS5] [SCC02.01]
+### 1.4.4  Explain how quaternion calculations could be used in video game development.	[CVMa1]  [CWS2]  [NGSS5] [SCC02.01]
 
 ### 1.4.5  Apply mathematical concepts to interactive application and video game design	[NGSS5]
 
@@ -260,18 +267,25 @@ Simple Checklist to make Your Game Faster
 -----
 
 ### 1.5.1  Understand and apply Newtonian physics to static & dynamic systems	[NGSS5]
+https://en.wikipedia.org/wiki/Classical_mechanics
+https://en.wikipedia.org/wiki/Newtons_laws_of_motion
 
 ##### 1.5.1.1 Define Mass	[CRS4]
+In physics, mass is a property of a physical body which determines the strength of its mutual gravitational attraction to other bodies, its resistance to being accelerated by a force, and in the theory of relativity gives the mass–energy content of a system. The SI unit of mass is the kilogram (kg).
 
 ##### 1.5.1.2 Define and calculate Velocity	[CRS4]  [NGSS5]
+The velocity of an object is the rate of change of its position with respect to a frame of reference, and is a function of time. Velocity is equivalent to a specification of its speed and direction of motion, e.g. 60 km/h to the north. Velocity is an important concept in kinematics, the branch of classical mechanics that describes the motion of bodies.
 
 ##### 1.5.1.3 Define and calculate Force	CVMa3  [CRS4]  [NGSS5]
+In physics, a force is any interaction that, when unopposed, will change the motion of an object. In other words, a force can cause an object with mass to change its velocity (which includes to begin moving from a state of rest), i.e., to accelerate. Force can also be described by intuitive concepts such as a push or a pull. A force has both magnitude and direction, making it a vector quantity. It is measured in the SI unit of newtons and represented by the symbol F.
 
 ##### 1.5.1.4 Define and calculate Torque	[CRS4]  [NGSS5]
+Loosely speaking, torque is a measure of the turning force on an object such as a bolt or a flywheel. For example, pushing or pulling the handle of a wrench connected to a nut or bolt produces a torque (turning force) that loosens or tightens the nut or bolt.
 
 ##### 1.5.1.5 Define and calculate Acceleration	[CRS4]  [NGSS5]
+Acceleration, in physics, is the rate of change of velocity of an object. An object's acceleration is the net result of any and all forces acting on the object, as described by Newton's Second Law.[1] The SI unit for acceleration is meter per second squared (m/s2). Accelerations are vector quantities (they have magnitude and direction) and add according to the parallelogram law. As a vector, the calculated net force is equal to the product of the object's mass (a scalar quantity) and the acceleration.
 
-### 1.5.2  Use physics to create realistic motions with objects and characters	CVMa5a, CVMa5b [NGSS5]  [SCC10]
+### 1.5.2  Use physics to create realistic motions with objects and characters	[CVMa5a], [CVMa5b] [NGSS5]  [SCC10]
 
 ### 1.5.3  Explain the use of collision geometry for physics-based interactions and as programming triggers	CVMb4b, [T21C10]  [CWS2]  [NGSS5] [SCC02.01]
 
